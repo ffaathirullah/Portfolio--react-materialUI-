@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import "./Profile.css";
 import { profile } from "../../assests/images";
+import CustomTimeline from "../CustomTimeline";
 
 const Profile = () => {
   return (
@@ -17,7 +18,7 @@ const Profile = () => {
       </figure>
 
       <div className="profile_information">
-        insert timeline
+        <CustomTimeline />
         <br />
         <Button>My Button</Button>
       </div>
