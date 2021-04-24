@@ -52,7 +52,9 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <Buttons text="Contact Me" icon={<Telegram />} />
+          <a href="https://t.me/ffaathirullah">
+            <Buttons text="Contact Me" icon={<Telegram />} />
+          </a>
         </div>
       </Navbar.Collapse>
     </Navbar>
