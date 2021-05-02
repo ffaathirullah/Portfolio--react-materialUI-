@@ -1,5 +1,8 @@
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import WebOutlinedIcon from "@material-ui/icons/WebOutlined";
+import SmartphoneOutlinedIcon from "@material-ui/icons/SmartphoneOutlined";
+import AssignmentOutlinedIcon from "@material-ui/icons/AssignmentOutlined";
 
 export default {
   name: "Fachrul Faathirullah",
@@ -53,17 +56,17 @@ export default {
     {
       title: "SDN Lengkong",
       date: "July 2005 - Juny 2011",
-      description: "Juara 2 Lomba Membaca Puisi",
+      description: "",
     },
     {
       title: "SMPN 1 Dayeuhkolot",
       date: "Juny 2011 - Juny 2014",
-      description: "Juara 2 Lomba Story Telling",
+      description: "",
     },
     {
       title: "SMK Telkom Bandung",
       date: "Juny 2015 - Juny 2018",
-      description: "Juara 2 Basketball",
+      description: "",
     },
     {
       title: "Telkom University",
@@ -83,4 +86,47 @@ export default {
       icon: <GitHubIcon />,
     },
   },
+  services: [
+    {
+      title: "Web Dev",
+      description:
+        "learn web dev with using react js in fornt end and php in backend",
+      icon: <WebOutlinedIcon />,
+    },
+    {
+      title: "Mobile Dev",
+      description:
+        "learn mobile dev on android using android studio and ios using react native ",
+      icon: <SmartphoneOutlinedIcon />,
+    },
+    {
+      title: "Graphic Design",
+      description:
+        "learn graphic design using figma, adobee photoshop and adobe illustrator",
+      icon: <AssignmentOutlinedIcon />,
+    },
+  ],
+  skills: [
+    {
+      title: "Fornt End",
+      description: ["ReactJs", "Javascript", "Bootstrap", "MaterialUI"],
+    },
+    {
+      title: "Mobile Dev",
+      description: [
+        "Java Android Studio",
+        "Kotlin Android Studio",
+        "Mobile Android React Native",
+        "Mobile IOS React Native",
+      ],
+    },
+    {
+      title: "Graphic Deign",
+      description: ["Figma", "Adobe Photoshop", "Adobe Illustrator"],
+    },
+    {
+      title: "Back End",
+      description: ["Php", "Code Igniter", "Laravel"],
+    },
+  ],
 };
