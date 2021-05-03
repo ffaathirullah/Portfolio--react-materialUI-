@@ -20,7 +20,12 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const [tabValue, setTabValue] = useState("All");
   const [projectDialog, setProjectDialog] = useState(false);
-
+  const styles = {
+    dialogPaper: {
+      minHeight: "80vh",
+      maxHeight: "80vh",
+    },
+  };
   return (
     <Grid container spacing={1} className="section pb_45 pt_45">
       <Grid item className="section_title mb_20">
@@ -100,6 +105,8 @@ const Portfolio = () => {
         open={projectDialog}
         onClose={() => setProjectDialog(false)}
         className="projectDialog"
+        fullWidth
+        maxWidth="lg"
       >
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}

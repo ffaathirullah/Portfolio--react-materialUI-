@@ -5,6 +5,7 @@ import SmartphoneOutlinedIcon from "@material-ui/icons/SmartphoneOutlined";
 import AssignmentOutlinedIcon from "@material-ui/icons/AssignmentOutlined";
 import AndroidIcon from "@material-ui/icons/Android";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import LanguageIcon from "@material-ui/icons/Language";
 
 export default {
   name: "Fachrul Faathirullah",
@@ -174,6 +175,24 @@ export default {
         },
         {
           link: "https://github.com/ffaathirullah/Kotlin_TicTactoe",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "React JS",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/simple-chat-app-c1480.appspot.com/o/restorante.png?alt=media&token=477522cc-8f35-48c3-9945-3d6f66883010",
+      title: "React Restorante",
+      caption: "a shot Description",
+      description: "This is my project description. Please fill it in",
+      links: [
+        {
+          link: "https://react-resto.netlify.app/home",
+          icon: <LanguageIcon />,
+        },
+        {
+          link: "https://github.com/ffaathirullah/react_resto",
           icon: <GitHubIcon />,
         },
       ],
