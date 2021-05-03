@@ -188,7 +188,7 @@ export default {
       description: "This is my project description. Please fill it in",
       links: [
         {
-          link: "https://react-resto.netlify.app/home",
+          link: "https://react-resto.netlify.app,
           icon: <LanguageIcon />,
         },
         {
