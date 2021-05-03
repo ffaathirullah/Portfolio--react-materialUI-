@@ -46,7 +46,7 @@ const Profile = () => {
       </div>
 
       <figure className="profile_image">
-        <img src={profile} />
+        <img src={profile} className="profile_edit" />
       </figure>
 
       <div className="profile_information">
